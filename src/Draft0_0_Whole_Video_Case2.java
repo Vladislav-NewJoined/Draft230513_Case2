@@ -1,4 +1,4 @@
-public class Draft0_Whole_Video_Case2 {
+public class Draft0_0_Whole_Video_Case2 {
     public static void main(String[] args) {
         System.out.println("Задание: \nПользователь вводит месяц и год.\n" +
                 "Скачать все снимки за месяц в папку.\n" +

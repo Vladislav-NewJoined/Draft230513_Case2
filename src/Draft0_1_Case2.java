@@ -20,7 +20,7 @@ import static java.lang.System.out;
 
 //    Задание здесь: https://lms.synergy.ru/practicums/attempt/3820593/1?groupPeriodId=1045153
 
-public class Draft0_Case2 {
+public class Draft0_1_Case2 {
 //        System.out.println("Задание: \nПользователь вводит месяц и год.\n" +
 //                "Скачать все снимки за месяц в папку.\n" +
 //                "Сгенерировать html страницу в этой папке, которая отобразит все скачанные снимки на одной странице. Пример:\n" +
