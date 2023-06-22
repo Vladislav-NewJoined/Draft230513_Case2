@@ -18,11 +18,11 @@ import java.util.List;
 
 import static java.lang.System.out;
 
-// В строке 120 в строке 193 поменять 3 на rows         for (int i = 1; i <= 3 /*list_Of_Dates_of_Entered_Month.size()*/; i++) { // TODO поменять 3 на Dates_of_Entered_Month
+//    В строке 118 в строке 191 поменять 3 на rows         for (int i = 1; i <= 3 /*list_Of_Dates_of_Entered_Month.size()*/; i++) { // TODO поменять 3 на Dates_of_Entered_Month
 //    Задание здесь: https://lms.synergy.ru/practicums/attempt/3820593/1?groupPeriodId=1045153
-//    Строки 120, 193 поправить
+//    СНАЧАЛА ПРОЙТИ АУТЕНТИФИКАЦИЮ НА САЙТЕ! Строки 118, 159 поправить  ссылка на папку Семашко: C:\Users\User\IdeaProjectsDrafts\Draft230513_Case2\NASA_Photos_Of_Month
 public class Draft0_1_4_Case2 {
-//        System.out.println("Задание: \nПользователь вводит месяц и год.\n" +
+//        System.out.println("Задание: \Пользователь вводит месяц и год.\n" +
 //                "Скачать все снимки за месяц в папку.\n" +
 //                "Сгенерировать html страницу в этой папке, которая отобразит все скачанные снимки на одной странице. Пример:\n" +
 //                "<img src=“1.png”/>\n" +
@@ -43,9 +43,10 @@ public class Draft0_1_4_Case2 {
 //    Your API key for sozin.vladislav@gmail.com is:
 //    jydXMU7fbHsLGVK6AN47isg2XJQUitZUHc29bRZR
 //    How to use the NASA API
-
-
-
+//    Нажать Get started
+//    First name Vladislav
+//    Last  name Sozin
+//    почта:	sozin.vladislav@gmail.com
 
 
 
@@ -155,7 +156,7 @@ public class Draft0_1_4_Case2 {
         out.println();
 
 
-        File[] imgFiles = new File("C:\\Users\\PC\\IdeaProjectsDrafts\\Draft230513_Case2\\NASA_Photos_Of_Month").listFiles();
+        File[] imgFiles = new File("C:\\Users\\User\\IdeaProjectsDrafts\\Draft230513_Case2\\NASA_Photos_Of_Month").listFiles();
         /*for(File f : files) {
             imgFiles.add(new ImageIcon(f.getAbsolutePath()).getImage());
         }*/
