@@ -23,7 +23,7 @@ import java.util.List;
 import static java.lang.System.out;
 
 //    Задание здесь: https://lms.synergy.ru/practicums/attempt/3820593/1?groupPeriodId=1045153
-
+//    Строки 120, 193 поправить
 public class Draft0_1_Case2 {
 //        System.out.println("Задание: \nПользователь вводит месяц и год.\n" +
 //                "Скачать все снимки за месяц в папку.\n" +
@@ -31,9 +31,9 @@ public class Draft0_1_Case2 {
 //                "<img src=“1.png”/>\n" +
 //                "<img src=“2.png”/>\n\nРешение: ");
 
-//  Пример решения здесь: Модуль 2. Урок 2. Задание 11. Сохраните снимки NASA за январь 2022 года
-//Я на api.nasa.gov
-//230507
+//  Пример решения здесь: Модуль 2. Урок 2. Задание 11. Сохраните снимки NASA за январь 2022 года.
+//    Я на api.nasa.gov
+//    230507
 //    NASA
 //    https://api.nasa.gov/
 //    вход здесь:	https://api.nasa.gov/
