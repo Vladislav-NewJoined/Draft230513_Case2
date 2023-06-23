@@ -51,7 +51,7 @@ public class Draft0_1_4_Case2 {
 
 
 
-    //        Пример _ ППППППППППППППППППППППППППППППППППП Осталось сконвертировать результирующий файл из jpg в html файл
+    //        Пример _ ППППППППППППППППППППППППППППППППППП Осталось сконвертировать результирующий файл из png в html файл
     public static void main(String[] args) throws IOException, ParseException {
         /*File myFile = new File("NASA_All_Photos_In_One_html_File\\all_Photos.html");*/
         //  Объявляем массив с изображениями за месяц
@@ -59,7 +59,7 @@ public class Draft0_1_4_Case2 {
         /*File[] imgFiles = new File[31];*/
         /*ArrayList<Image> imgFiles = new ArrayList<>();*/
 
-        /*File[] imgFiles_Old = {new File("NASA_Photos_Of_Month\\image1.jpg"), new File("NASA_Photos_Of_Month\\image2.jpg")};*/
+        /*File[] imgFiles_Old = {new File("NASA_Photos_Of_Month\\image1.png"), new File("NASA_Photos_Of_Month\\image2.png")};*/
         // Создаем список дат за введённый месяц (из задания Курс валют за месяц Case3_1)
         BufferedReader buffered = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Введите исходные месяц и год с разделителем '/', пример: 03/2023: ");
@@ -131,15 +131,15 @@ public class Draft0_1_4_Case2 {
             String urlOfCurrentPhoto = currentCodeItself.substring(urlBegin + 8, urlEnd - 1);
             System.out.println(urlOfCurrentPhoto);
             try (InputStream in = new URL(urlOfCurrentPhoto).openStream()) {
-                /*try *//*(InputStream in = (InputStream) Paths.get("NASA_Input\\input.jpg"))*//* {*/
-                Files.copy(in, Paths.get("NASA_Photos_Of_Month\\" + "image" + i + ".jpg"), StandardCopyOption.REPLACE_EXISTING);
-                /*imgFiles[i] = new File(in + "image" + i + ".jpg");*/ //  TODO убрать в строке ошибку
+                /*try *//*(InputStream in = (InputStream) Paths.get("NASA_Input\\input.png"))*//* {*/
+                Files.copy(in, Paths.get("NASA_Photos_Of_Month\\" + "image" + i + ".png"), StandardCopyOption.REPLACE_EXISTING);
+                /*imgFiles[i] = new File(in + "image" + i + ".png");*/ //  TODO убрать в строке ошибку
 
                 //  Далее создаем отдельную директорию и отдельный файл html, куда объединяем и сохраняем все картинки ( фото )
                 /*FileWriter writer = new FileWriter ("NASA_All_Photos_In_One_html_File\\all_Photos.html");*/
                 /*Files.copy(in, Paths.get("NASA_All_Photos_In_One_html_File\\all_Photos.html"));*/
                 /*BufferedWriter writer = new BufferedWriter(new FileWriter(myFile, true));
-                writer.write(*//*in.toString()*//* in + ".jpg" + "\n");
+                writer.write(*//*in.toString()*//* in + ".png" + "\n");
                 writer.flush();
                 writer.close();*/
 
@@ -170,7 +170,7 @@ public class Draft0_1_4_Case2 {
         int chunkWidth, chunkHeight;
         int type;
         //fetching image files
-        /*File[] imgFiles_Old = {new File("NASA_Photos_Of_Month\\image1.jpg"), new File("NASA_Photos_Of_Month\\image2.jpg")};*/
+        /*File[] imgFiles_Old = {new File("NASA_Photos_Of_Month\\image1.png"), new File("NASA_Photos_Of_Month\\image2.png")};*/
         /*for (int i = 0; i < chunks; i++) {
             imgFiles_Old[i] = new File("NASA_Photos_Of_Month//image1");
         }*/
@@ -194,8 +194,8 @@ public class Draft0_1_4_Case2 {
                 num++;
             }
         }
-        System.out.println("Image concatenated.....");
-        ImageIO.write(finalImg, "jpeg", new File("NASA_All_Photos_In_One_html_File\\all_Photos.jpg"));
+        System.out.println("Изображения объединены");
+        ImageIO.write(finalImg, "png", new File("NASA_All_Photos_In_One_html_File\\all_Photos.png"));
 
 
 
