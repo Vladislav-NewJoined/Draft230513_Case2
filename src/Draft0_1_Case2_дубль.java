@@ -20,7 +20,7 @@ import static java.lang.System.out;
 //    В строке 118 в строке 191 поменять 3 на rows         for (int i = 1; i <= 3 /*list_Of_Dates_of_Entered_Month.size()*/; i++) { // TODO поменять 3 на Dates_of_Entered_Month
 //    Задание здесь: https://lms.synergy.ru/practicums/attempt/3820593/1?groupPeriodId=1045153
 //    СНАЧАЛА ПРОЙТИ АУТЕНТИФИКАЦИЮ НА САЙТЕ! Строки 118, 159 поправить  ссылка на папку Семашко: C:\Users\User\IdeaProjectsDrafts\Draft230513_Case2\NASA_Photos_Of_Month
-public class Draft0_1_4_Case2 {
+public class Draft0_1_Case2_дубль {
 //        System.out.println("Задание: \Пользователь вводит месяц и год.\n" +
 //                "Скачать все снимки за месяц в папку.\n" +
 //                "Сгенерировать html страницу в этой папке, которая отобразит все скачанные снимки на одной странице. Пример:\n" +
